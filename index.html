@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>shuzhencang</title>	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+	</style>
+</head>
+<body>
+<!-- 導航列 -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<a class="navname" href="#">書珍倉</a>
+		<div><input type="text" name="key" class="form-control" placeholder="Search" style="height: 35px;">
+		</div>
+		<a href="#">
+			<div class="icon">
+			<img src="img/search.png" width="30" height="30">
+        	</div>
+        </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	    <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         	<ul class="navbar-nav ml-auto">
+         		<li class="nav-item"><a class="nav-link" href="#">二手書籍</a></li>
+         		<li class="nav-item"><a class="nav-link" href="#">公益活動</a></li>
+      			<li class="nav-item"><a class="nav-link" href="index_3.html">會員專區</a></li>
+      			<li class="nav-item"><a class="nav-link" href="#">關於我們</a></li>
+    		</ul>
+        </div>
+	</nav>
+
+<!-- 輪播幻燈片 -->
+<div class="carousel slide" data-ride="carousel" id="carousel-demo">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-demo" data-slide-to="1"></li>
+        </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/slide1.jpg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/slide2.jpg" alt="...">
+        </div>
+      
+        <a href="#carousel-demo" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#carousel-demo" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+</div>
+
+
+<!-- 書籍列表 -->
+<div id="home">
+<!-- 標題按鈕 -->
+<div class="container">
+<div class="title">
+	<div class="row">
+		<div class="textleft col-xl-8">
+			<div class="row">
+				<a href="#"><div class="title1">最新上架</div></a>
+				<a href="#"><div class="title2">熱門排行</div></a>
+				<a href="#"><div class="title3">隨機推薦</div></a>
+			</div>
+		</div>
+		<div class="textright1 col-xl-4">公益活動</div>
+	</div>
+</div>
+</div>
+<!-- 書籍陳列內容 -->
+<div class="container">
+<div class="content">
+	<div class="row">
+		<div class="bookcontent col-xl-8">
+			<div class="row">
+			<div class="book1">
+			<div>
+				<img src="img/book1.jpg" height="250px" width="177px">
+				<a href="#"><div class="booktext1">困惑的台灣設計圈未來</div></a>
+			</div>
+		</div>
+		<div class="book2">
+			<div>
+				<img src="img/book2.jpg" height="250px" width="177px">
+				<a href="#"><div class="booktext2">解憂雜貨店</div></a>
+			</div>
+		</div>
+		<div class="book3">
+			<div>
+				<img src="img/book3.jpg" height="250px" width="177px">
+				<a href="#"><div class="booktext3">戀愛必修三</div></a>
+			</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="textright2 col-xl-4">
+			<div class="content1">
+				<img src="img/donate1.jpg" height="250px" width="250px">
+				<a href="#"><div class="righttext1">捐書送愛</div></a>
+			</div>
+			
+		</div>			
+	</div>
+
+	<div class="row">
+		<div class="bookcontent col-xl-8">
+			<div class="row">
+			<div class="book1">
+			<div>
+				<img src="img/book1.jpg" height="250px" width="177px">
+				<a href="#"><div class="booktext1">困惑的台灣設計圈未來</div></a>
+			</div>
+		</div>
+		<div class="book2">
+			<div>
+				<img src="img/book2.jpg" height="250px" width="177px">
+				<a href="#"><div class="booktext2">解憂雜貨店</div></a>
+			</div>
+		</div>
+		<div class="book3">
+			<div>
+				<img src="img/book3.jpg" height="250px" width="177px">
+				<a href="#"><div class="booktext3">戀愛必修三</div></a>
+			</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="textright2 col-xl-4">
+			<div class="content1">
+				<img src="img/donate2.jpg" height="250px" width="250px">
+				<a href="#"><div class="righttext2">二手書募集</div></a>
+			</div>
+		</div>				
+	</div>
+	<div class="row">
+			<div class="more1 col-xl-8">
+				<button class="btn btn-primary d-inline-flex flex-row align-items-center">瀏覽更多
+				</button>
+			</div>
+		
+		<div class="more2 col-xl-4">
+			<button class="btn btn-primary d-inline-flex flex-row align-items-center">瀏覽更多
+			</button>
+		</div>
+                
+	</div>
+</div>
+</div>
+</div>
+	
+
+<!-- footer -->
+
+	<div class="footer">©shuzhencang 2021／No.1001, Daxue Rd., East Dist., Hsinchu City, Taiwan (R.O.C.)<div>
+	<div></div>
+
+	<!-- JS連結 -->
+	<script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	
+</body>
+</html>
+
+
+
